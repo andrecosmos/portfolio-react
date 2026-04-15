@@ -1,22 +1,22 @@
 
 import cvenda from "../assets/cvenda.png";
-import react1 from "../assets/react1-1.png";
+import react from "../assets/react1-1.png";
 import react_portfolio from "../assets/react_portfolio.png";
 import api_java from "../assets/api_java1.png";
-import python1 from "../assets/python1.png";
+import python from "../assets/python1.png";
 import conv_moeda_java from "../assets/conv_moeda_java.png";
 import livraria_java from "../assets/livraria_java.png";
 import banco_python from "../assets/banco_python.png";
-import item1 from "../assets/item1-1.png";
-import item2 from "../assets/item1-2.png";
-import item3 from "../assets/item1-3.png";
-import item4 from "../assets/item1-4.png";
-import item5 from "../assets/item1-5.png";
-import item6 from "../assets/item1-6.png";  
-import item7 from "../assets/item1-7.png";
-import item8 from "../assets/item1-8.png";
-import item9 from "../assets/item1-9.png";
-import item10 from "../assets/item1-10.png";  
+import itema from "../assets/item1-1.png";
+import itemb from "../assets/item1-2.png";
+import itemc from "../assets/item1-3.png";
+import itemd from "../assets/item1-4.png";
+import iteme from "../assets/item1-5.png";
+import itemf from "../assets/item1-6.png";  
+import itemg from "../assets/item1-7.png";
+import itemh from "../assets/item1-8.png";
+import itemi from "../assets/item1-9.png";
+import itemj from "../assets/item1-10.png";  
 
 
 
@@ -28,7 +28,7 @@ export const projetos = [
   },
   {
     nome: "E-commerce React",
-    imagem: react1-1,
+    imagem: react,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
@@ -43,7 +43,7 @@ export const projetos = [
   },
   {
     nome: "Calcula preço em Python",
-    imagem: python1,
+    imagem: python,
     link: "https://github.com/andrecosmos/CALCULA-PRECO",
   },
   {
@@ -72,52 +72,52 @@ export const projetos = [
 export const habilidades = [
   {
     nome: "Javascript",
-     imagem: item1,
+     imagem: itema,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "JWT",
-     imagem: item2,
+     imagem: itemb,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "React Native",
-     imagem: item3,
+     imagem: itemc,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "Python",
-     imagem: item4,
+     imagem: itemd,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "PostgreSQL",
-     imagem: item5,
+     imagem: iteme,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Node.js",
-     imagem: item6,
+     imagem: itemf,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "MongoDB",
-     imagem: item7,
+     imagem: itemg,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Tailwind CSS",
-     imagem: item8,
+     imagem: itemh,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Prisma",
-     imagem: item9,
+     imagem: itemi,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Typescript",
-     imagem: item10,
+     imagem: itemj,
     link: "https://eccomerce-react-zeta.vercel.app/"
   }
 
