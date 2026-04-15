@@ -1,8 +1,10 @@
 
+import cvenda from "../assets/cvenda.png";
+
 export const projetos = [
   {
     nome: "Calculadora de Vendas",
-    imagem: "src/assets/cvenda.png",
+    imagem: cvenda,
     link: "https://projeto-calcula-venda-jjbt.vercel.app/",
   },
   {
