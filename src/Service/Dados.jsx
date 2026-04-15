@@ -7,16 +7,16 @@ import python1 from "../assets/python1.png";
 import conv_moeda_java from "../assets/conv_moeda_java.png";
 import livraria_java from "../assets/livraria_java.png";
 import banco_python from "../assets/banco_python.png";
-import item1-1 from "../assets/item1-1.png";
-import item1-2 from "../assets/item1-2.png";
-import item1-3 from "../assets/item1-3.png";
-import item1-4 from "../assets/item1-4.png";
-import item1-5 from "../assets/item1-5.png";
-import item1-6 from "../assets/item1-6.png";  
-import item1-7 from "../assets/item1-7.png";
-import item1-8 from "../assets/item1-8.png";
-import item1-9 from "../assets/item1-9.png";
-import item1-10 from "../assets/item1-10.png";  
+import item1 from "../assets/item1-1.png";
+import item2 from "../assets/item1-2.png";
+import item3 from "../assets/item1-3.png";
+import item4 from "../assets/item1-4.png";
+import item5 from "../assets/item1-5.png";
+import item6 from "../assets/item1-6.png";  
+import item7 from "../assets/item1-7.png";
+import item8 from "../assets/item1-8.png";
+import item9 from "../assets/item1-9.png";
+import item10 from "../assets/item1-10.png";  
 
 
 
@@ -72,52 +72,52 @@ export const projetos = [
 export const habilidades = [
   {
     nome: "Javascript",
-     imagem: item1-1,
+     imagem: item1,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "JWT",
-     imagem: item1-2,
+     imagem: item2,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "React Native",
-     imagem: item1-3,
+     imagem: item3,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "Python",
-     imagem: item1-4,
+     imagem: item4,
     link: "https://eccomerce-react-zeta.vercel.app/",
   },
   {
     nome: "PostgreSQL",
-     imagem: item1-5,
+     imagem: item5,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Node.js",
-     imagem: item1-6,
+     imagem: item6,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "MongoDB",
-     imagem: item1-7,
+     imagem: item7,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Tailwind CSS",
-     imagem: item1-8,
+     imagem: item8,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Prisma",
-     imagem: item1-9,
+     imagem: item9,
     link: "https://eccomerce-react-zeta.vercel.app/"
   },
   {
     nome: "Typescript",
-     imagem: item1-10,
+     imagem: item10,
     link: "https://eccomerce-react-zeta.vercel.app/"
   }
 
