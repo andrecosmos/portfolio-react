@@ -1,0 +1,17 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 178px;
+  border-radius: 20px;
+  box-shadow:
+    0 12px 30px rgba(170, 59, 255, 0.08),
+    0 6px 12px rgba(0,0,0,0.05);
+}
