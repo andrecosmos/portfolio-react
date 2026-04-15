@@ -3,20 +3,20 @@ import cvenda from "../assets/cvenda.png";
 import react from "../assets/react1-1.png";
 import react_portfolio from "../assets/react_portfolio.png";
 import api_java from "../assets/api_java1.png";
-import python from "../assets/python1.png";
-import conv_moeda_java from "../assets/conv_moeda_java.png";
-import livraria_java from "../assets/livraria_java.png";
-import banco_python from "../assets/banco_python.png";
-import itema from "../assets/item1-1.png";
-import itemb from "../assets/item1-2.png";
-import itemc from "../assets/item1-3.png";
-import itemd from "../assets/item1-4.png";
-import iteme from "../assets/item1-5.png";
-import itemf from "../assets/item1-6.png";  
-import itemg from "../assets/item1-7.png";
-import itemh from "../assets/item1-8.png";
-import itemi from "../assets/item1-9.png";
-import itemj from "../assets/item1-10.png";  
+import python from "../assets/python.png";
+import convmoeda from "../assets/convmoeda.png";
+import livraria from "../assets/livraria.png";
+import banco from "../assets/banco.png";
+import itema from "../assets/itema.png";
+import itemb from "../assets/itemb.png";
+import itemc from "../assets/itemc.png";
+import itemd from "../assets/itemd.png";
+import iteme from "../assets/iteme.png";
+import itemf from "../assets/itemf.png";  
+import itemg from "../assets/itemg.png";
+import itemh from "../assets/itemh.png";
+import itemi from "../assets/itemi.png";
+import itemj from "../assets/itemj.png";  
 
 
 
@@ -48,17 +48,17 @@ export const projetos = [
   },
   {
     nome: "Conversor de Moedas",
-    imagem: conv_moeda_java,
+    imagem: convmoeda,
     link: "https://github.com/andrecosmos/DesafioAluraOneConversor",
   },
   {
     nome: "Livraria em Java",
-    imagem: livraria_java,
+    imagem: livraria,
     link: "https://github.com/andrecosmos/onebookstore/tree/main/Onebookstore",
   },
   {
     nome: "Banco em Python",
-    imagem: banco_python,
+    imagem: banco,
     link: "https://github.com/andrecosmos/BancoVersao3",
   },
   {
