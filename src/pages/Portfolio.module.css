@@ -1,0 +1,48 @@
+
+.container {
+  --width: 100px;
+  --height: 50px;
+  --quantity: 10;
+  overflow: hidden;
+}
+
+.container.small {
+  --width: 100px;
+  --height: 50px;
+}
+
+.container.large {
+  --width: 200px;
+  --height: 200px;
+}
+
+.carrossel {
+  display: flex;
+  gap: 10px;
+  animation: scroll 20s linear infinite;
+}
+
+.container.reverse .carrossel {
+  animation-direction: reverse;
+}
+
+.item img {
+  width: var(--width);
+  height: var(--height);
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.item:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

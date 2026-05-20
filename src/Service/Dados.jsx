@@ -17,8 +17,8 @@ import itemg from "../assets/itemg.png";
 import itemh from "../assets/itemh.png";
 import itemi from "../assets/itemi.png";
 import itemj from "../assets/itemj.png";  
-
-
+import itemx from "../assets/itemx.png";
+import imagemz from "../assets/imagemz.png";
 
 export const projetos = [
   {
@@ -37,9 +37,19 @@ export const projetos = [
     link: "#",
   },
   {
+    nome: "full-stack",
+    imagem: imagemz,
+    link: "https://github.com/andrecosmos/full-stack",
+  },
+  {
     nome: "ApiREST Java",
     imagem: api_java,
     link: "https://github.com/andrecosmos/apirestforum",
+  },
+  {
+    nome: "API Python FastAPI",
+    imagem: itemx,
+    link: "https://github.com/andrecosmos/fast_api_banco",
   },
   {
     nome: "Calcula preço em Python",
