@@ -1,8 +1,11 @@
 import styles from './Header.module.css';
-import { FaFacebook, FaInstagram, FaLinkedin , FaGithub} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin , FaGithub, FaWhatsapp } from 'react-icons/fa';
 
- 
+
  function Header() {
+  const phoneNumber = "5511971927935"; 
+  const message = encodeURIComponent("Olá! Gostaria de mais informações.");
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
   return (
     <header className={styles.header}>
       <h1>André Cosmos</h1>
@@ -41,7 +44,19 @@ import { FaFacebook, FaInstagram, FaLinkedin , FaGithub} from 'react-icons/fa';
         >
           <FaGithub style={{ color: '#333', fontSize: '24px' }}  />
         </a>
+       
+        <a 
+          href={whatsappUrl} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="whatsapp-btn"
+          aria-label="Conversar no WhatsApp"
+        >
+        <FaWhatsapp  style={{ color: '#25d366', fontSize: '24px' }}/>
+      </a>
+        
       </div>
+      
     </header>
   );
 }
