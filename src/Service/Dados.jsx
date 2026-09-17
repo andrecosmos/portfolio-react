@@ -19,6 +19,8 @@ import itemi from "../assets/itemi.png";
 import itemj from "../assets/itemj.png";  
 import itemx from "../assets/itemx.png";
 import imagemz from "../assets/imagemz.png";
+import itemk from "../assets/itemk.png";
+import itemz from "../assets/itemz.png";
 
 export const projetos = [
   {
@@ -30,6 +32,17 @@ export const projetos = [
     nome: "E-commerce React",
     imagem: react,
     link: "https://eccomerce-react-zeta.vercel.app/",
+  },
+  {
+    nome: "Sistema de Agendamento",
+    imagem: itemk,
+    link: "https://cadastro-usuarios-app-lime.vercel.app/barbearia-do-bairro/admin",
+  },
+  
+  {
+    nome: "Portal de Crédito Bancário",
+    imagem: itemz,
+    link: "https://portal-credito-bancario.onrender.com/",
   },
   {
     nome: "Portfólio em React",
@@ -70,12 +83,8 @@ export const projetos = [
     nome: "Banco em Python",
     imagem: banco,
     link: "https://github.com/andrecosmos/BancoVersao3",
-  },
-  {
-    nome: "Calculadora de Vendas",
-    imagem: cvenda,
-    link: "https://projeto-calcula-venda-jjbt.vercel.app/",
   }
+  
 
 ];
 

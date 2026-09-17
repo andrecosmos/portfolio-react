@@ -1,4 +1,3 @@
-
 import { useRef } from "react";
 
 export default function Carousel({ items, reverse = false, size }) {
@@ -7,7 +6,7 @@ export default function Carousel({ items, reverse = false, size }) {
 
   const scroll = (direction) => {
     if (carrosselRef.current) {
-      const scrollAmount = 300;
+      const scrollAmount = 400; // Aumentado para rolar cards maiores mais rápido
       carrosselRef.current.scrollBy({
         left: direction === "left" ? -scrollAmount : scrollAmount,
         behavior: "smooth",
@@ -19,16 +18,12 @@ export default function Carousel({ items, reverse = false, size }) {
     <div className={`container ${size} ${reverse ? "manual" : ""}`}>
       {reverse && (
         <button className="arrow left" onClick={() => scroll("left")}>
-          &#10094;
+          ❮
         </button>
       )}
       <div className="carrossel" ref={carrosselRef}>
         {loopItems.map((item, index) => (
-          <div
-            className="item"
-            key={index}
-            style={{ "--delay": `${index + 1}s` }}
-          >
+          <div className="item" key={index}>
             <a href={item.link} target="_blank" rel="noopener noreferrer">
               <img src={item.imagem} alt={item.nome} loading="lazy" />
             </a>
@@ -37,7 +32,7 @@ export default function Carousel({ items, reverse = false, size }) {
       </div>
       {reverse && (
         <button className="arrow right" onClick={() => scroll("right")}>
-          &#10095;
+          ❯
         </button>
       )}
     </div>
