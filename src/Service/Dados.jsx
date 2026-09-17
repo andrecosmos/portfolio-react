@@ -42,6 +42,7 @@ export const projetos = [
     imagem: itemk,
     link: "https://cadastro-usuarios-app-lime.vercel.app/barbearia-do-bairro/admin",
     descricao: "Sistema de agendamento para negócios, Conexão real com banco de dados permitindo que os clientes marquem horários online e que os administradores gerenciem os agendamentos. Inclui funcionalidades como notificações, gerenciamento de clientes e relatórios de agendamento.",
+    tags: [ "Node.js", "Express", "MongoDB","React", "JavaScript", "CSS", "HTML"],
   },
   
   {
