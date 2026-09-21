@@ -21,21 +21,15 @@ import itemx from "../assets/itemx.png";
 import imagemz from "../assets/imagemz.png";
 import itemk from "../assets/itemk.png";
 import itemz from "../assets/itemz.png";
+import itemw from "../assets/itemw.png";
 
 export const projetos = [
-  {
-    nome: "Calculadora de Vendas",
-    imagem: cvenda,
-    link: "https://projeto-calcula-venda-jjbt.vercel.app/",
-    descricao: "Uma calculadora de vendas que permite calcular o preço final de um produto com base no preço original, desconto e impostos aplicáveis. Ideal para vendedores e consumidores que desejam saber o valor final de uma compra.",
-    tags: ["React", "JavaScript", "CSS", "HTML"],
-  },
-  {
-    nome: "E-commerce React",
-    imagem: react,
-    link: "https://eccomerce-react-zeta.vercel.app/",
-    descricao: "Um projeto de e-commerce desenvolvido em React, que permite aos usuários navegar por produtos, adicioná-los ao carrinho e finalizar a compra. Inclui funcionalidades como filtragem de produtos, busca e integração com APIs para gerenciamento de estoque.",
-    tags: ["React", "JavaScript", "CSS", "HTML"],
+   {
+    nome: "e-commerce completo com autenticação JWT",
+    imagem: itemw,
+    link: "https://nova-loja-kappa.vercel.app/",
+    descricao: "Um projeto de e-commerce completo com autenticação JWT, permitindo que os usuários façam login e acessem funcionalidades exclusivas. Inclui gerenciamento de produtos, carrinho de compras e processamento de pagamentos.",
+    tags: ["Typescript", "JWT", "PostgreSQL", "Node.js", "React", "Tailwind CSS", "Prisma"],
   },
   {
     nome: "Sistema de Agendamento",
@@ -51,6 +45,21 @@ export const projetos = [
     link: "https://portal-credito-bancario.onrender.com/",
     descricao: "Um portal de crédito bancário que permite aos usuários solicitar empréstimos, verificar seu histórico de crédito e receber recomendações personalizadas. Inclui funcionalidades como simulação de empréstimos, análise de risco e integração com sistemas bancários.",
     tags: ["Python", "FastAPI", "Steamlit"],
+  },
+  {
+    nome: "Calculadora de Vendas",
+    imagem: cvenda,
+    link: "https://projeto-calcula-venda-jjbt.vercel.app/",
+    descricao: "Uma calculadora de vendas que permite calcular o preço final de um produto com base no preço original, desconto e impostos aplicáveis. Ideal para vendedores e consumidores que desejam saber o valor final de uma compra.",
+    tags: ["React", "JavaScript", "CSS", "HTML"],
+  },
+  
+  {
+    nome: "Frontend E-commerce React",
+    imagem: react,
+    link: "https://eccomerce-react-zeta.vercel.app/",
+    descricao: "Um projeto de e-commerce desenvolvido em React, que permite aos usuários navegar por produtos, adicioná-los ao carrinho e finalizar a compra. Inclui funcionalidades como filtragem de produtos, busca e integração com APIs para gerenciamento de estoque.",
+    tags: ["React", "JavaScript", "CSS", "HTML"],
   },
   {
     nome: "Portfólio em React",
@@ -108,6 +117,7 @@ export const projetos = [
     descricao: "Um projeto de banco de dados desenvolvido em Python, utilizando frameworks como SQLAlchemy para gerenciar e manipular dados de forma eficiente. Inclui funcionalidades como criação de tabelas, inserção de registros e consultas complexas.",
     tags: ["Python", "SQLAlchemy", "PostgreSQL"],
   }
+ 
   
 
 ];
