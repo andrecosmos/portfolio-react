@@ -22,6 +22,7 @@ import imagemz from "../assets/imagemz.png";
 import itemk from "../assets/itemk.png";
 import itemz from "../assets/itemz.png";
 import itemw from "../assets/itemw.png";
+import imagemjj from "../assets/imagemjj.png";
 
 export const projetos = [
    {
@@ -34,7 +35,7 @@ export const projetos = [
   {
     nome: "Sistema de Agendamento",
     imagem: itemk,
-    link: "https://cadastro-usuarios-app-lime.vercel.app/barbearia-do-bairro/admin",
+    link: "https://jareserva-app-lime.vercel.app/barbearia-do-bairro/",
     descricao: "Sistema de agendamento para negócios, Conexão real com banco de dados permitindo que os clientes marquem horários online e que os administradores gerenciem os agendamentos. Inclui funcionalidades como notificações, gerenciamento de clientes e relatórios de agendamento.",
     tags: [ "Node.js", "Express", "MongoDB","React", "JavaScript", "CSS", "HTML"],
   },
@@ -53,6 +54,13 @@ export const projetos = [
     descricao: "Uma calculadora de vendas que permite calcular o preço final de um produto com base no preço original, desconto e impostos aplicáveis. Ideal para vendedores e consumidores que desejam saber o valor final de uma compra.",
     tags: ["React", "JavaScript", "CSS", "HTML"],
   },
+  {
+    nome: "Landing Page",
+    imagem: imagemjj,
+    link: "https://jareserva-app-lime.vercel.app/",
+    descricao: "Uma Landing Page com foco em conversão, utilizando React. Inclui navegação e Conexão com Sistema." ,   
+    tags: ["React", "Node", "MongoDb"],
+ },
   
   {
     nome: "Frontend E-commerce React",
