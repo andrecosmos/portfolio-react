@@ -1,9 +1,9 @@
 import { useEffect } from "react"; // 1. IMPORTANTE: Importar o useEffect
-import Banner from "./layout/Banner";
-import Carousel from "./layout/Carosel";
+
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import { projetos, habilidades } from "./Service/Dados";
+import Navbar from "./layout/Navbar";
 
 export default function App() {
   
@@ -30,18 +30,30 @@ export default function App() {
 
   return (
     <div className="app">
-      <section className="banner-section">
-        <Banner />
-      </section>
-      
+      <Navbar />
       <Header />
+
+      <section className="skills-section" id="habilidades">
+        <div className="section-container">
+          <h2>Habilidades</h2>
+          <div className="skills-container">
+            {habilidades.map((item, index) => (
+              <div className="skill-item" key={index}>
+                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <img src={item.imagem} alt={item.nome} loading="lazy" />
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       
       
 
       {/* SEÇÃO DE PROJETOS COM DETALHES VISUAIS E FADE-IN */}
-      <section className="projects-section">
+      <section className="projects-section" id="projetos">
         <div className="section-container">
-          <h2><i>Projetos em Destaque</i></h2>
+          <h2>Projetos</h2>
           
           <div className="projects-grid">
             {projetos.map((item, index) => (
@@ -74,20 +86,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className="skills-section">
-        <div className="section-container">
-          <h2><i>Habilidades</i></h2>
-          <div className="skills-container">
-            {habilidades.map((item, index) => (
-              <div className="skill-item" key={index}>
-                <a href={item.link} target="_blank" rel="noopener noreferrer">
-                  <img src={item.imagem} alt={item.nome} loading="lazy" />
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      
 
       <Footer />
     </div>

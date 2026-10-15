@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="contato">
       <ul className={styles.social_list}>
         <a
           className="facebook"

@@ -29,14 +29,14 @@ export const projetos = [
     nome: "e-commerce completo com autenticação JWT",
     imagem: itemw,
     link: "https://nova-loja-kappa.vercel.app/",
-    descricao: "Um projeto de e-commerce completo com autenticação JWT, permitindo que os usuários façam login e acessem funcionalidades exclusivas. Inclui gerenciamento de produtos, carrinho de compras e processamento de pagamentos.",
+    descricao: "Um projeto de e-commerce completo com autenticação JWT, gerenciamento de produtos, carrinho de compras e processamento de pagamentos.",
     tags: ["Typescript", "JWT", "PostgreSQL", "Node.js", "React", "Tailwind CSS", "Prisma"],
   },
   {
     nome: "Sistema de Agendamento",
     imagem: itemk,
     link: "https://jareserva-app-lime.vercel.app/barbearia-do-bairro/",
-    descricao: "Sistema de agendamento para negócios, Conexão real com banco de dados permitindo que os clientes marquem horários online e que os administradores gerenciem os agendamentos. Inclui funcionalidades como notificações, gerenciamento de clientes e relatórios de agendamento.",
+    descricao: "Sistema de agendamento para negócios,permite que os clientes marquem horários online e que os administradores gerenciem os agendamentos.",
     tags: [ "Node.js", "Express", "MongoDB","React", "JavaScript", "CSS", "HTML"],
   },
   
@@ -44,7 +44,7 @@ export const projetos = [
     nome: "Portal de Crédito Bancário",
     imagem: itemz,
     link: "https://portal-credito-bancario.onrender.com/",
-    descricao: "Um portal de crédito bancário que permite aos usuários solicitar empréstimos, verificar seu histórico de crédito e receber recomendações personalizadas. Inclui funcionalidades como simulação de empréstimos, análise de risco e integração com sistemas bancários.",
+    descricao: "Um portal de crédito bancário que permite aos usuários solicitar empréstimos, verificar seu histórico de crédito e receber recomendações personalizadas.",
     tags: ["Python", "FastAPI", "Steamlit"],
   },
   {

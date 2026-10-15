@@ -1,9 +1,23 @@
 
 .header {
   text-align: center;
-  padding: 40px 20px 30px;
-  background: linear-gradient(to bottom,  #787879, #ffffff);
+  padding: 0 20px 40px;
+  background: #ffffff;
   border-bottom: none;
+}
+
+.intro {
+  padding: 24px 0 12px;
+}
+
+.intro h1{
+  color:#056ffa;
+}
+
+.intro p{
+  color:#020202;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .header h1 {
@@ -19,13 +33,14 @@
 
 .social_reader {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  height: auto;
   text-align: center;
   padding: 15px;
   gap: 20px;
-  background: linear-gradient(to bottom,  #cacacc, #ffffff);
+  background: #ffffff;
+  margin: 0 -20px;
 } 
 
 .social_reader a {
@@ -53,3 +68,91 @@
   filter: drop-shadow(0 0 10px #333333);
 }
 
+
+.about {
+  width: calc(100% + 40px);
+  box-sizing: border-box;
+  margin: 12px 0 0 -20px;
+  padding: 28px 20px;
+  background: rgba(196, 193, 193, 0.72);
+  border: 1px solid rgba(15, 34, 63, 0.12);
+  border-radius: 2px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.profileContainer {
+  flex: 0 0 220px;
+  width: 220px;
+  height: 220px;
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutText {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
+.aboutText h2 {
+  margin: 0 0 12px;
+  font-size: 1.5rem;
+}
+
+.aboutText p {
+  line-height: 1.65;
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 0 16px 28px;
+  }
+
+  .social_reader {
+    margin: 0 -16px;
+    gap: 16px;
+  }
+
+  .about {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    padding: 22px 18px;
+  }
+
+  .aboutContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .profileContainer {
+    flex-basis: 170px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .aboutText {
+    text-align: center;
+  }
+
+  .aboutText h2 {
+    font-size: 1.3rem;
+  }
+}
