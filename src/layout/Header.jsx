@@ -1,12 +1,10 @@
 import styles from './Header.module.css';
 import { FaFacebook, FaInstagram, FaLinkedin , FaGithub, FaWhatsapp } from 'react-icons/fa';
 import profileImage from '../assets/profile.jpg';
+import { whatsappUrl } from '../Service/contato';
 
 
  function Header() {
-  const phoneNumber = "5511971927935"; 
-  const message = encodeURIComponent("Olá! Gostaria de mais informações.");
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
   return (
     <header className={styles.header} id="inicio">
 

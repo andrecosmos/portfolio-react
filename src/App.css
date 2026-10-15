@@ -1,9 +1,29 @@
 /* ==================== LAYOUT PRINCIPAL ==================== */
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 0;
   margin: 0;
 }
 
+body {
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
 .app {
+  width: 100%;
+  min-width: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +31,7 @@ body {
 
 /* SEÇÕES */
 .section-container {
- width:100%;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -33,13 +53,13 @@ body {
 /* ==================== ALINHAMENTO DOS TÍTULOS ==================== */
 .skills-section h2,
 .projects-section h2 {
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   margin: 0 auto 8px auto; /* Centraliza e dá um bom espaçamento antes dos itens */
   text-align: center;
   color: #070707;
-  font-weight: 300px;
-  border-radius:6px;
-  width:fit-content;
+  font-weight: 300;
+  border-radius: 6px;
+  width: fit-content;
   letter-spacing: -0.5px;
   padding-bottom: 8px;
   cursor: pointer;
@@ -143,7 +163,7 @@ body {
 /* ==================== GRADE DE PROJETOS COM EFEITO ZOOM ==================== */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
   grid-auto-rows: 420px;
   gap: 35px;
   padding: 10px 0;
@@ -227,12 +247,12 @@ body {
 
 /* TEXTOS DE IDENTIFICAÇÃO DO PROJETO */
 .card-conteudo {
-  padding: 16px 20px;
+  padding: 12px 20px;
   display: flex;
   flex: 1;
   min-height: 0;
   flex-direction: column;
-  gap: 8px;
+  justify-content: space-evenly;
   text-align: left; 
   background:#0f223f;
 }
@@ -262,10 +282,10 @@ body {
 /* TAGS DE TECNOLOGIAS (SUGESTÃO EXTRA) */
 .card-tags {
   display: flex;
-  max-height: 30px;
+  max-height: 54px;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: auto;
+  margin-top: 0;
   overflow: hidden;
 }
 
@@ -314,7 +334,7 @@ body {
   }
 
   .projects-grid {
-    grid-template-columns: 1fr; /* Em celulares muito pequenos, força 1 card por linha */
+    grid-template-columns: 1fr;
     grid-auto-rows: 420px;
     gap: 25px;
   }

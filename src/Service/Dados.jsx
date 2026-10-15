@@ -23,6 +23,8 @@ import itemk from "../assets/itemk.png";
 import itemz from "../assets/itemz.png";
 import itemw from "../assets/itemw.png";
 import imagemjj from "../assets/imagemjj.png";
+import java from "../assets/java.png";
+
 
 export const projetos = [
    {
@@ -180,6 +182,11 @@ export const habilidades = [
     nome: "Typescript",
      imagem: itemj,
     link: "https://eccomerce-react-zeta.vercel.app/"
+  },
+  {
+    nome: "Java",
+    imagem: java,
+    link:"https://nova-loja-kappa.vercel.app/"
   }
 
 ];

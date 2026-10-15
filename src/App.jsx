@@ -1,6 +1,7 @@
 import { useEffect } from "react"; // 1. IMPORTANTE: Importar o useEffect
 
 import Footer from "./layout/Footer";
+import FloatingActions from "./layout/FloatingActions";
 import Header from "./layout/Header";
 import { projetos, habilidades } from "./Service/Dados";
 import Navbar from "./layout/Navbar";
@@ -89,6 +90,7 @@ export default function App() {
       
 
       <Footer />
+      <FloatingActions />
     </div>
   );
 }
