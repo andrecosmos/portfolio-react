@@ -24,7 +24,7 @@ import itemz from "../assets/itemz.png";
 import itemw from "../assets/itemw.png";
 import imagemjj from "../assets/imagemjj.png";
 import java from "../assets/java.png";
-
+import casavideo from "../assets/casavideo.png";
 
 export const projetos = [
    {
@@ -62,6 +62,13 @@ export const projetos = [
     link: "https://jareserva-app-lime.vercel.app/",
     descricao: "Uma Landing Page com foco em conversão, utilizando React. Inclui navegação e Conexão com Sistema." ,   
     tags: ["React", "Node", "MongoDb"],
+ },
+ {
+    nome:"Clone de Streaming",
+    imagem: casavideo,
+    link:"https://eclectic-frangollo-5da785.netlify.app/",
+    descricao:"Clone de Layout de Streaming, conectando com API de Filmes, utilizando React e CSS.",
+    tags:["React","CSS","API"],
  },
   
   {
