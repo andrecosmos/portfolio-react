@@ -25,6 +25,8 @@ import itemw from "../assets/itemw.png";
 import imagemjj from "../assets/imagemjj.png";
 import java from "../assets/java.png";
 import casavideo from "../assets/casavideo.png";
+import livracuca from "../assets/livracuca.png";
+
 
 export const projetos = [
    {
@@ -41,21 +43,14 @@ export const projetos = [
     descricao: "Sistema de agendamento para negócios,permite que os clientes marquem horários online e que os administradores gerenciem os agendamentos.",
     tags: [ "Node.js", "Express", "MongoDB","React", "JavaScript", "CSS", "HTML"],
   },
+  {
+    nome: "LivraCuca Livraria On Line",
+    imagem: livracuca,
+    link: "https://livracuca.vercel.app/",
+    descricao: "Uma Api construída com FastApi Python com conexão a Api externa OpenLibrary.",
+    tags: ["Pythont", "Jinja2", "FastApi"],
+  },
   
-  {
-    nome: "Portal de Crédito Bancário",
-    imagem: itemz,
-    link: "https://portal-credito-bancario.onrender.com/",
-    descricao: "Um portal de crédito bancário que permite aos usuários solicitar empréstimos, verificar seu histórico de crédito e receber recomendações personalizadas.",
-    tags: ["Python", "FastAPI", "Steamlit"],
-  },
-  {
-    nome: "Calculadora de Vendas",
-    imagem: cvenda,
-    link: "https://projeto-calcula-venda-jjbt.vercel.app/",
-    descricao: "Uma calculadora de vendas que permite calcular o preço final de um produto com base no preço original, desconto e impostos aplicáveis. Ideal para vendedores e consumidores que desejam saber o valor final de uma compra.",
-    tags: ["React", "JavaScript", "CSS", "HTML"],
-  },
   {
     nome: "Landing Page",
     imagem: imagemjj,
@@ -70,6 +65,20 @@ export const projetos = [
     descricao:"Clone de Layout de Streaming, conectando com API de Filmes, utilizando React e CSS.",
     tags:["React","CSS","API"],
  },
+ {
+    nome: "Portal de Crédito Bancário",
+    imagem: itemz,
+    link: "https://portal-credito-bancario.onrender.com/",
+    descricao: "Um portal de crédito bancário que permite aos usuários solicitar empréstimos, verificar seu histórico de crédito e receber recomendações personalizadas.",
+    tags: ["Python", "FastAPI", "Steamlit"],
+  },
+ {
+    nome: "Calculadora de Vendas",
+    imagem: cvenda,
+    link: "https://projeto-calcula-venda-jjbt.vercel.app/",
+    descricao: "Uma calculadora de vendas que permite calcular o preço final de um produto com base no preço original, desconto e impostos aplicáveis. Ideal para vendedores e consumidores que desejam saber o valor final de uma compra.",
+    tags: ["React", "JavaScript", "CSS", "HTML"],
+  },
   
   {
     nome: "Frontend E-commerce React",

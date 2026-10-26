@@ -38,9 +38,18 @@
   background: #0f63e2;
 }
 
+.backToTop hover {
+  background: #f5f6f7;
+}
+
 .whatsapp {
   background: #25d366;
 }
+
+ .whatsapp hover {
+  background: #e4ebe7;
+}
+
 
 @media (max-width: 480px) {
   .actions {
@@ -48,6 +57,8 @@
     bottom: max(0.75rem, env(safe-area-inset-bottom, 0px));
     gap: 0.625rem;
   }
+
+
 
   .button {
     width: 3rem;
